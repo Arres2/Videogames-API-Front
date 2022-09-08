@@ -2,8 +2,12 @@
 
 # Individual Project - Henry Videogames
 
-<p align="right">
+<p align="center" >
   <img height="200" src="./videogame.png" />
+  <img height="200" src="./Cards.png" />
+  <img height="200" src="./Create Form.png" />
+  <img height="200" src="./Landing.png" />
+  <img height="200" src="./Loading Screen.png" />
 </p>
 
 ## Objetivos del Proyecto
