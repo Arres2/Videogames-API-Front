@@ -1,0 +1,89 @@
+.detailCard {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 30px 15px 15px 15px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
+}
+
+.container h1 {
+  display: flex;
+  background-color: var(--wildWatermelon);
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  padding: 15px 15px;
+  width: stretch;
+}
+
+.container h3 {
+  display: flex;
+  background-color: var(--green);
+  width: stretch;
+  padding: 15px 15px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+.other {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.other .dish_types,
+.other .diets {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--green);
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 15px 15px;
+  align-items: center;
+}
+
+.summary,
+.steps {
+  margin: 15px 15px;
+  padding: 15px 15px;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+.pagination_button {
+  font-family: var(--headlinesFont);
+  display: inline-block;
+  background: var(--wildWatermelon);
+  padding: 0.3em 0;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 17px;
+  border-color: var(--carne);
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+.pagination_button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 34px 0 rgba(255, 79, 135, 0.32);
+}

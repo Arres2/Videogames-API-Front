@@ -1,0 +1,41 @@
+nav {
+  background-color: black;
+}
+
+nav .container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav .container img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  /* margin-top: 5px; */
+  margin-left: 10px;
+}
+
+.createButton {
+  display: flex;
+  justify-items: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: auto;
+  background-color: var(--wildWatermelon);
+}
+
+.createButton a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.createButton :hover {
+  opacity: 0.6;
+}

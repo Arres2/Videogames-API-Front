@@ -1,0 +1,16 @@
+html {
+  background-color: grey;
+}
+
+.cards_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 20px;
+  background-color: grey;
+}
+.card {
+  padding: 20px;
+
+  text-align: center;
+}

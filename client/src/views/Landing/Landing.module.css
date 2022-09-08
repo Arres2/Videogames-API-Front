@@ -1,0 +1,14 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing img:hover {
+  transform: scale(110%);
+}
+
+.landing h4,
+.landing h1 {
+  color: white;
+}
